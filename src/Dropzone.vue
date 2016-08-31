@@ -109,22 +109,17 @@
   @import url('../node_modules/dropzone/dist/dropzone.css');
   @import 'https://fonts.googleapis.com/css?family=Roboto';
 
-  html{
-    background-color: #F9F9F9;
-  }
-
-  .dropzone{
+  .dropzone {
     border: 2px solid #E5E5E5;
     font-family: 'Roboto', sans-serif;
     color: #777;
     transition: background-color .2s linear;
   }
-  .dropzone:hover{
+  .dropzone:hover {
     background-color: #F6F6F6;
   }
 
-
-  i{
+  i {
     color: #CCC;
   }
 
@@ -132,12 +127,12 @@
     border-radius: 0px;
   }
 
-  .dropzone .dz-preview:hover .dz-image img{
+  .dropzone .dz-preview:hover .dz-image img {
     transform: none;
     -webkit-filter: none;
   }
 
-  .dropzone .dz-preview .dz-details{
+  .dropzone .dz-preview .dz-details {
     bottom: 0px;
     top: 0px;
     color: white;
@@ -145,19 +140,20 @@
     transition: opacity .2s linear;
     text-align: left;
   }
-  .dropzone .dz-preview .dz-details .dz-filename span, .dropzone .dz-preview .dz-details .dz-size span {
+  .dropzone .dz-preview .dz-details .dz-filename span,
+  .dropzone .dz-preview .dz-details .dz-size span {
     background-color: transparent;
   }
-  .dropzone .dz-preview .dz-details .dz-filename:not(:hover) span{
+  .dropzone .dz-preview .dz-details .dz-filename:not(:hover) span {
     border: none;
   }
 
-  .dropzone .dz-preview .dz-details .dz-filename:hover span{
+  .dropzone .dz-preview .dz-details .dz-filename:hover span {
     background-color: transparent;
     border: none;
   }
 
-  .dropzone .dz-preview .dz-remove{
+  .dropzone .dz-preview .dz-remove {
     position: absolute;
     z-index: 30;
     color: white;
